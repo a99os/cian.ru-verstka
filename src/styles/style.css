@@ -4,9 +4,6 @@ body {
 .nav__logo--item:hover .arenda {
   display: block;
 }
-.arenda_card h1{
-  background: transparent;
-  overflow: visible;
-  box-shadow: 1px 1px 100px blue;
-  z-index: 11;
+.arenda_card--bg {
+  filter: blur(90px);
 }
